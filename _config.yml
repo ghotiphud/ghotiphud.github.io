@@ -15,5 +15,31 @@ url: "http://ghotiphud.github.io/" # the base hostname & protocol for your site
 twitter_username: ycason
 github_username:  ghotiphud
 
+# Global settings
+timezone: America/New_York
+
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+highlighter: pygments
+
+defaults:
+  -
+    scope:
+      path: "" # All files
+    values:
+      layout: "post"
+
+gems:
+- jemoji
+- jekyll-sitemap
+- jekyll-feed
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- CNAME
