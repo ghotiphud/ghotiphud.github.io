@@ -7,7 +7,6 @@
 
 # Site settings
 title: Database and Code
-email: yale.cason@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Exploring the wide world of programming. One post at a time.
 baseurl: "" # the subpath of your site, e.g. /blog
