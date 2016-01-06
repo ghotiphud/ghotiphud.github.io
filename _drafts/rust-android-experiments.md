@@ -2,15 +2,11 @@
 title:  "Rust Android Experiments"
 categories: rust android
 ---
-Test Draft stuff
 
-```rust
-fn main() {
-    "test";
-}
-```
+# Running Android Executable
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+1. step
+2. second step
+
+# Adding a UI in Java or Rust
+
