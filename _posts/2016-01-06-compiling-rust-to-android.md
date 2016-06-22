@@ -72,7 +72,9 @@ There is one caveat as of this writing that the android builds seem to be nightl
 
 I've picked the date **2015-12-14** to base my toolchain, but mostly likely you'll use whatever the newest nightly build is at the time you do this.
 
-**NOTE**: Not all nightlies are built equally... While updating this post, I tried **2016-01-05** which failed to compile rustc-serialize.  Buyer beware!
+~~**NOTE**: Not all nightlies are built equally... While updating this post, I tried **2016-01-05** which failed to compile rustc-serialize.  Buyer beware!~~
+
+**UPDATE**: rustc-serialize just needs to be updated to the latest version to work with the nightlies. Thanks go to [@1011XX](https://twitter.com/1011XX) for the correction.  Enjoy working with the latest and greatest!
 
 Without further ado, multirust makes this a simple thing to set up.
 
@@ -108,6 +110,7 @@ linker = "apk-builder/apk-builder/target/release/apk-builder"' > .cargo/config
 # Add the apk-builder
 $ git clone https://github.com/tomaka/android-rs-glue apk-builder
 $ cd apk-builder/apk-builder
+$ cargo update
 $ cargo build --release
 $ cd ../..
 ```
