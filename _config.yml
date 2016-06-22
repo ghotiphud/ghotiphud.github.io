@@ -18,11 +18,10 @@ github_username:  ghotiphud
 timezone: America/New_York
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-
-highlighter: pygments
+#github: [metadata]
+kramdown:
+  input: GFM
+  hard_wrap: false
 
 defaults:
   -
@@ -35,6 +34,8 @@ gems:
 - jemoji
 - jekyll-sitemap
 - jekyll-feed
+- jekyll-coffeescript
+- jekyll-paginate
 
 exclude:
 - Gemfile
