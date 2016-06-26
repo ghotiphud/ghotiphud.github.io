@@ -26,7 +26,7 @@ so for f(x) = 0,
 x = -3 or 1
 ```
 
-Now, how does this apply in coding you might ask?  What are the "roots" of our software equation?  Just as our equation became easier to understand, and easier to work with, so will our code when properly factored.
+Applying this notion is very powerful and a bit abstract.  We are saying that those two equations are equivalent.  How do we know?  They produce the same answers.  So, the equation or problem is unchanging, but how we chose to represent it is up to us.  Well, if it's up to me, I'm going to choose whichever representation makes solving my problem easiest.  Just as our equation became easier to understand, and easier to work with, so will our code when properly factored.
 
 When to Factor
 ----------------------
@@ -43,9 +43,9 @@ All of these are helpful, somewhat rigorous, and I recommend that you read up on
 
 But when we get down to it, there are a handful of principles that are easy to follow, and seem to do a decent job.
 
-* Keep things small & focused
 * Keep things simple
 * Keep dependencies explicit & localized
+* Keep things cohesive
 * Design for the "pit of success"
 * Experiment! (Don't be afraid to fail)
 
