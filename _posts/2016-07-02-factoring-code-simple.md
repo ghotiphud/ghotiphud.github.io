@@ -3,7 +3,7 @@ title:  "Factoring Code - Keep It Simple"
 categories: Design
 tags: FactoringYourCode
 
-date: 2016-07-03
+date: 2016-07-02
 ---
 
 I intend for this series of posts to be short tidbits leading up to my presentation at the upcoming [Tampa Code Camp][1] called "Factoring Your Code".

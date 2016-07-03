@@ -44,7 +44,7 @@ All of these are helpful, somewhat rigorous, and I recommend that you read up on
 But when we get down to it, there are a handful of principles that are easy to follow, and seem to do a decent job.
 
 * Keep things simple
-* Keep dependencies explicit & localized
+* Keep dependencies explicit
 * Keep things cohesive
 * Design for the "pit of success"
 * Experiment! (Don't be afraid to fail)
