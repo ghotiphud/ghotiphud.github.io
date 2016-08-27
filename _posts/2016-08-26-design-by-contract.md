@@ -5,8 +5,6 @@ categories: Design
 date: 2016-08-26
 ---
 
-How I "Invented" Design By Contract That One Time...
-------------------------------------------------------
 Or how there's nothing new under the sun.
 
 Story Time
